@@ -1,44 +1,43 @@
-# Interview-Question-Creator Setup and GitHub Push Guide
+# Interview-Question-Creator
 
-'''bash
-# Step 1: Create a new conda environment named 'interview'
+# Step 1: Create a new conda environment
+```bash
 conda create -n interview python=3.10 -y
-
-# Step 2: Activate the newly created environment
+```
+# Step 2: Activate the environment
+```bash
 conda activate interview
-
-# Step 3: Install all required packages from requirements.txt
+```
+# Step 3: Install all required Python packages
+```bash
 pip install -r requirements.txt
+```
+# --------------------------
+# GitHub Setup Instructions
+# --------------------------
 
-# -------------------------------
-# GitHub Commands for Deployment
-# -------------------------------
-
-# Step 4: Initialize a local Git repository (skip if already initialized)
+# Step 4: Initialize git (if not already initialized)
+```bash
 git init
-
-# Step 5: Add remote GitHub repository (replace with your actual GitHub repo URL)
+```
+# Step 5: Add remote repository (replace with your actual repo URL)
+```bash
 git remote add origin https://github.com/your-username/interview-question-creator.git
-
-# Step 6: Add all project files to Git staging
+```
+# Step 6: Add all files to staging
+```bash
 git add .
-
-# Step 7: Commit the changes with a descriptive message
-git commit -m "Initial commit - project setup complete"
-
-# Step 8: (Optional) Rename the current branch to 'main'
-git branch -M main
-
-# Step 9: Push code to the GitHub repository
-git push origin main
-'''
-
-
+```
 # Step 7: Commit the changes with a message
+```bash
 git commit -m "Initial commit - added setup and requirements"
-
+```
 # Step 8: Set the default branch (optional but safe)
+```bash
 git branch -M main
-
+```
 # Step 9: Push code to GitHub
+```bash
 git push origin main
+```
+

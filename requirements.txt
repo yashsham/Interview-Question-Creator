@@ -1,0 +1,28 @@
+# Core LLM Libraries
+transformers
+torch
+accelerate
+google-generativeai
+
+# LangChain Ecosystem
+langchain
+langchain-community
+langchain-core
+
+# Utility & Web Libraries
+python-dotenv
+rich
+requests
+pypdf
+aiofiles
+fastapi
+uvicorn
+jinja2
+python-multipart
+PyPDF2
+
+# Vector Database
+faiss-cpu
+
+# Local Package (editable mode)
+-e .

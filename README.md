@@ -3,26 +3,43 @@
 
 # How to run:
 
-Create an environment
-
-'''bash
+# Step 1: Create a new conda environment
+```bash
 conda create -n interview python=3.10 -y
-'''
-
-Activate the environment
-'''bash
+```
+# Step 2: Activate the environment
+```bash
 conda activate interview
-'''
-install requirements
-'''bash
+```
+# Step 3: Install all required Python packages
+```bash
 pip install -r requirements.txt
-'''
-# GitHub commands
-'''bash
-1. git clone https://github.com/
+```
+# --------------------------
+# GitHub Setup Instructions
+# --------------------------
 
-2. git add .
-
-3. git commit -m "readme updated"
-
-4. git push origin main'''
+# Step 4: Initialize git (if not already initialized)
+```bash
+git init
+```
+# Step 5: Add remote repository (replace with your actual repo URL)
+```bash
+git remote add origin https://github.com/your-username/interview-question-creator.git
+```
+# Step 6: Add all files to staging
+```bash
+git add .
+```
+# Step 7: Commit the changes with a message
+```bash
+git commit -m "Initial commit - added setup and requirements"
+```
+# Step 8: Set the default branch (optional but safe)
+```bash
+git branch -M main
+```
+# Step 9: Push code to GitHub
+```bash
+git push origin main
+```

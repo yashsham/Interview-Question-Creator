@@ -1,11 +1,7 @@
 # Interview-Question-Creator
 
-<<<<<<< HEAD
-
 # How to run:
 
-=======
->>>>>>> d17348d83f6bcded85dde8eeebd1c8bbd0243d63
 # Step 1: Create a new conda environment
 ```bash
 conda create -n interview python=3.10 -y

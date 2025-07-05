@@ -3,11 +3,13 @@ transformers
 torch
 accelerate
 google-generativeai
+huggingface_hub
 
 # LangChain Ecosystem
 langchain
 langchain-community
 langchain-core
+langchainhub 
 
 # Utility & Web Libraries
 python-dotenv
